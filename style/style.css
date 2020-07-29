@@ -1,0 +1,1110 @@
+@font-face{
+    font-family: 'Charter';
+    src: url('../assets/fonts/charter/ttf/Charter\ Regular.ttf');
+}
+
+.sf1{
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+.sf2{
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+html{
+    min-width: 100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: #E9F3F9;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.header, .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    padding-top: 30px;
+}
+
+.section_intro{
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+.section_beach{
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+.section_gallery{
+    margin-top: 15%;
+    padding-bottom: 10%;
+}
+
+.section_rooms{
+    padding-top: 10%;
+}
+
+.section_map-content{
+    position: absolute;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.facilities_title, .map_title{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 68px;
+    text-align: left;
+    color: #707070;
+}
+
+.map_title{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.facilities_content{
+    font-family: Charter;
+    font-weight: normal;
+    font-family: Charter;
+    font-size: 28px;
+    text-align: left;
+    color: #707070;
+}
+
+.location_title{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 68px;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.
+    16);
+    margin-bottom: 90px;
+}
+
+.link_directions{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.36);
+
+}
+
+.map_image{
+    width: 100%;
+}
+
+.section:nth-child(even){
+    background-color: #208CCE;
+    color: white;
+}
+
+.header_image-wrapper{
+    height: 70%;
+    width: 93%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 10%;
+}   
+
+.header_title{
+    margin-bottom: 5%;
+    font-family: 'Charter';
+    font-weight: normal;
+    color: #707070;
+    font-size: 50px;
+}
+
+.section_map{
+    margin-top: 10%;
+    background-color: white!important;
+}
+
+.header_language-select{
+    display: flex;
+    justify-content: flex-end;
+    width: 93%;
+    font-family: Charter;
+    font-size: 28px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.wide-image{
+    width: 93%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card{
+    width: 65%;
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.18);
+    padding: 10px 30px 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: -20%;
+}
+
+.card_excerpt{
+    text-align: center;
+    font-family: Charter;
+    font-size: 28px;
+    color: #707070;
+}
+
+.card_title{
+    font-family: Charter;
+    font-size: 50px;
+    color: #707070;
+    font-weight: normal;
+}
+
+.card_content{
+    text-align: center;
+    font-family: Charter;
+    font-size: 28px;
+    color: #707070;
+}
+
+.link_availability{
+    text-align: center;
+    font-family: Charter;
+    font-size: 28px;
+    color: #707070;
+}
+
+.link{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.section_book_now_cat-wrapper{
+    width: 80%;
+    margin-top: -30%;
+}
+
+.link_book-now{
+    color: white;
+    font-weight: normal;
+    font-family: Charter;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 5%;
+    display: block;
+    margin-top: 0;
+}
+
+.rooms-image{
+    width: 85%;
+    height: auto;
+}
+
+.infobox_room{
+    margin-top: -20%;
+    width: 85%;
+    background-color: #208CCE;
+    color: white;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.link_book-room{
+    color: #208CCE;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    font-family: Charter;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: left;
+    color: #6e94a8;
+
+}
+
+.room_navigation{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.room_navigation_control{
+    background-color: #208CCE;
+    color: white;
+    margin: 2px;
+    padding: 5px 15px 5px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.room_navigation_control-left{
+    border-bottom-left-radius: 5px;
+}
+
+.room_navigation_control-right{
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.facilities_content{
+    width: 80%;
+}
+
+.facility_box{
+    display: flex;
+    width: 93%;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.facility_column{
+    width: 45%;
+}
+
+.facility_column:nth-child(odd) .facility_wrapper{
+    margin-bottom: 25%;
+}
+
+.facility_column:nth-child(even) .facility_wrapper{
+    margin-top: 25%;
+}
+
+.facility_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 40px 20px 20px 20px;
+    border: 1px solid rgba(110, 148, 168, 0.25);
+}
+
+.facility_image{
+    width: 50%;
+}
+
+.review_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 5% 20% 5%;
+    width: 80%;
+}
+
+.review_writer-image{
+    margin-bottom: -15%;
+}
+
+.section_review{
+    min-height: 700px;
+}
+
+.review_content-box{
+    position: absolute;
+    width: 50%;
+    height: inherit;
+}
+
+
+.review_writer{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 45px;
+    text-align: left;
+    color: #fff;
+    margin-top: 0;
+}
+
+.review_content{
+    font-family: Charter;
+    font-weight: normal;
+    font-family: Charter;
+    text-align: left;
+    font-size: 28px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.contact-us_dialog{
+    color: black;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
+    width: 85%;
+    background-color: white;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);
+    padding-bottom: 2%;
+}
+
+.book-now_button{
+    background-color: #208CCE;
+    color: white;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    font-family: Charter;
+    font-size: 23px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us_button{
+    background-color: #208CCE;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    font-family: Charter;
+    font-weight: normal;
+    font-family: Charter;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+}
+
+.footer{
+    background-image: url('http://localhost/apartmani_tomasovic/assets/images/footer.png');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+
+.header_image-wrapper_col-central{
+    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.footer_title{
+    margin-top: 10%;
+    margin-bottom: 5px;
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: left;
+    color: #fff;
+}
+
+.footer_content{
+    margin-bottom: 10%;
+}
+
+.footer_booking-logo{
+    width: 40%;
+}
+
+.footer_developer-logo{
+    width: 30%;
+}
+
+.footer_booking-wrapper{
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.header_image-lateral{
+    width: 100%;
+    height: auto;
+}
+
+.header_image-central{
+    width: 100%;
+    height: auto;
+}
+
+.wide-image_covering{
+    margin-top: -20%;
+}
+
+.gallery-wrapper{
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.gallery_title, .rooms_title{
+    margin-bottom: 5%;
+}
+
+.room_name{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 53px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.gallery_title{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 68px;
+    text-align: left;
+    color: #fff;
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.booking_dialog-wrapper{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-top: 10%;
+    width: 80%;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fullscreen{
+    display: none;
+}
+
+.gallery_image-box{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.gallery_image{
+    width: 100%;
+}
+
+.section_book_now-cat_text{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 68px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.room_excerpt{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.room_content{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.facility_name{
+    font-family: Charter;
+    font-weight: normal;
+    font-family: Charter;
+    text-align: center;
+    color: #707070;
+    font-size: 28px;
+    margin-bottom: 8px;
+    min-width: 180px;
+}
+
+.booking_score-image-wrapper{
+    color: black;
+    display: inline;
+}
+
+.input_label{
+    font-family: Charter;
+    font-weight: normal;
+    font-family: Charter;
+    text-align: left;
+    color: #707070;
+}
+
+.booking_dialog-title, .ui-datepicker-title, .booking_result-rooms{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+}
+
+.booking_dialog-message, .booking_result-text{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #707070;
+}
+
+.datepicker{
+    color: #707070;
+}
+
+.ui-datepicker-header{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ui-datepicker-prev{
+    grid-column-start: 1;
+}
+
+.ui-datepicker-next{
+    grid-column-start: 3;
+}
+
+.ui-datepicker-title{
+    grid-row: 1;
+    grid-column-start: 2;
+}
+
+.ui-datepicker-calendar{
+    width: 100%;
+}
+
+.ui-datepicker-calendar td{
+    text-align: center;
+}
+
+.ui-datepicker-calendar th{
+    font-family: Charter;
+    font-weight: normal;
+    text-align: center;
+    color: #707070;
+    width: 14%;
+}
+
+.ui-datepicker-calendar td a{
+    font-family: Charter;
+    font-weight: normal;
+    text-align: center;
+    color: #707070;
+    text-decoration: none;
+    opacity: 70%;
+}
+
+.ui-datepicker-calendar td{
+    background-color: #F0EEB7;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 14%;
+    border: 0.5px solid white;
+}
+
+.ui-datepicker-calendar tr{
+    display: flex;
+    width: 100%;
+    justify-content: stretch;
+}
+
+
+.booking_month-select{
+    width: 100%;
+    
+}
+
+.room_0{
+    background-color: #56BFA7;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.room_1{
+    background-color: #6E94A8;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.card_title{
+    text-align: center;
+}
+
+.card_content{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.rooms_title{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 68px;
+    text-align: left;
+    color: #fff;
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #707070;
+}
+
+.gallery_title{
+    color:#707070;;
+}
+
+.infobox_room-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section_facilities_content_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.facilities_title, .facilities_content{
+    text-align: center;
+}
+
+.booking_score-rate{
+    color: #707070;
+    background-image: url('http://localhost/apartmani_tomasovic/assets/icons/t-rec.png');
+    background-size: contain;
+    padding: 4% 4% 4% 4%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marketing_message-content{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 68px;
+    text-align: left;
+    color: #fff;
+    width: 80%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.booking_score{
+    margin-top: 20%;
+    text-align: right;
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.contact-us_title{
+    font-family: Charter;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: left;
+    color: #707070;
+    text-align: center;
+}
+
+.booking_dialog-wrapper{
+    margin: 100px 0 20px 0;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid rgba(110, 148, 168, 0.25);
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.footer_bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_developer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1367px ){
+    .smallscreen{
+        display: none;
+    }
+
+    .fullscreen{
+        display: block;
+        margin-top: 15px;
+    }
+
+    .review_content-box{
+        width: inherit;
+    }
+
+    .booking_dialog-wrapper{
+        width: 40%;
+    }
+
+    .marketing_message-content{
+        text-align: left;
+    }
+
+    .header_image-caption{
+        text-align: center;
+        font-family: Charter;
+        font-size: 28px;
+        color: #707070;
+    }
+
+    .header_image-wrapper_col-central{
+        width: 27%;
+    }
+
+    .header_image-wrapper_col-lateral{
+        width: 22%;
+    }
+
+    .header_image-wrapper{
+        width: 80%;
+        align-items: flex-start;
+    }
+
+    .booking_form-wrapper{
+        width: 70%;
+        margin-bottom: -50px;
+        display: flex;
+
+    }
+
+    .booking_form{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 15px 30px 15px;
+        box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .form_input-text, .form_input-textarea{
+        border:  1px solid #208CCE;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: Charter;
+        font-size: 20px;
+        width: 90%!important;
+    }
+
+    .booking_form .form_input-text{
+        width: 17%!important;
+    }
+
+    .textarea_wrapper{
+        height: 80%;   
+        width: 100%;
+    }
+
+    .form_input-textarea{
+        height: inherit;
+        width: 100%;
+    }
+
+    .form_icon{
+        line-height: 1.75em!important;
+        margin-left: -90px;
+        height: 50%;
+        width: auto;
+    }
+
+    .section_intro, .section_beach{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_lateral_image{
+        width: 30%;
+        height: 100%;
+    }
+    .card{
+        width: 40%;
+        margin-top: 0;
+        box-shadow: 0px 0px 0px;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .section_gallery {
+        padding-bottom: 5%;
+    }
+       
+
+    .card_content{
+        text-align: left;
+    }
+
+    .section_book_now{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .wide-image_covering{
+        width: 45%;
+        height: 100%;
+        margin: 80px 80px 80px 80px;
+    }
+
+    .gallery_image-box{
+        width: 88%;
+        display: flex;
+    }
+
+    .gallery_image{
+        width: 25%;
+    }
+
+    .gallery-wrapper{
+        margin-top: 0;
+    }
+
+    .gallery_title{
+        color: white;
+    }
+
+    .rooms_title{
+        display: none;
+    }
+
+    .section_rooms{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rooms-image{
+        width: 40%;
+    }
+
+    .infobox_room-wrapper{
+        width: 35%;
+        margin-left: -5%;
+        margin-bottom: -50px;
+    }
+
+    .infobox_room{
+        margin-top: 0;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 10%;
+    }
+
+    .section_facilities{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section_review{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding-top: 100px;
+    }
+
+    .review_wrapper{
+        width: 30%;
+        padding-bottom: 5%;
+    }
+
+    .review_marketing_info{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact_us_form{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .header_image-wrapper{
+        margin-bottom: 0px;
+    }
+    
+    .header_image-wrapper_col-central{
+        margin-bottom: 0%;
+    }
+
+    .section_intro, .section_beach, .section_rooms{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .section_forms{
+        padding-top: 7%;
+        padding-bottom: 0%;
+    }
+
+    .contact-us_dialog{
+        margin: 20px 0 20px;
+        padding: 30px 30px 30px 30px;
+        width: 60%;
+        border: 1px solid rgba(110, 148, 168, 0.25);
+        border-radius: 10px;
+    }
+
+    .header{
+        padding-top: 50px;
+    }
+
+    .section_book_now_cat-wrapper{
+        padding-left: 10%;
+    }
+
+    .section_facilities_content_box{
+        margin-left: 8%;
+    }
+
+    .facility_box{
+        margin-right: 10%;
+    }
+
+    .facilities_title{
+        margin-bottom: 100px;
+    }
+    
+    .facilities_content{
+        padding-left: 30px;
+    }
+
+    .contact_us_form_col{
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contact_us_form_col:nth-child(even){
+        width: 65%;
+    }
+
+    .room_navigation{
+        width: 115%;
+    }
+
+    .section_book_now_cat-wrapper{
+        margin-top: 0;
+    }
+
+    .section_book_now-cat_text{
+        text-align: left;
+    }
+
+    .section_map-content{
+        margin-top: 5%;   
+    }
+
+    .facility_wrapper{
+        height: 40%;
+    }
+
+    .footer_bottom{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .footer_developer-wrapper{
+        grid-column-start: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+    
+    .footer_developer-wrapper p{
+        margin-bottom: 0;
+    } 
+
+    .footer_booking-wrapper{
+        margin-bottom: 0;
+    }
+
+    .section_map{
+        background-color: #208CCE;
+    }
+}
